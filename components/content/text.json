@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_content_texts",
+  "info": {
+    "name": "text",
+    "icon": "stream"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "string",
+      "default": "Text",
+      "required": true
+    }
+  }
+}

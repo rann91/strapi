@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_content_links",
+  "info": {
+    "name": "link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "newWindow": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "private": false,
+      "required": true,
+      "unique": false,
+      "default": "Link"
+    }
+  }
+}

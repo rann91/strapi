@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_content_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "h-square"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.link"
+    },
+    "type": {
+      "type": "string",
+      "default": "Hero",
+      "required": true,
+      "unique": false,
+      "private": false
+    }
+  }
+}
