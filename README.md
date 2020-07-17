@@ -1,0 +1,2 @@
+# strapi
+Strapi Research Project
