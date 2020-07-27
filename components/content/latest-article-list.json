@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_content_latest_article_lists",
+  "info": {
+    "name": "Latest articles",
+    "icon": "water"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "limit": {
+      "type": "integer",
+      "default": 3
+    }
+  }
+}

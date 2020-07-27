@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_content_contact_forms",
+  "info": {
+    "name": "Contact form",
+    "icon": "blender-phone"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "contactDetail": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.contact-detail"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_contact_details",
+  "info": {
+    "name": "contactDetail",
+    "icon": "pen-square"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,18 +1,18 @@
 {
-  "collectionName": "components_content_heroes",
+  "collectionName": "components_structure_metas",
   "info": {
-    "name": "Hero",
-    "icon": "h-square"
+    "name": "Meta",
+    "icon": "list-alt"
   },
   "options": {},
   "attributes": {
-    "title": {
+    "metaTitle": {
       "type": "string"
     },
-    "description": {
+    "metaDescription": {
       "type": "text"
     },
-    "image": {
+    "metaImage": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -20,11 +20,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "link": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.link"
     }
   }
 }

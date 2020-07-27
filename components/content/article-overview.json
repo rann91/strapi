@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_content_texts",
+  "collectionName": "components_content_article_overviews",
   "info": {
-    "name": "Text",
-    "icon": "stream"
+    "name": "Article overview",
+    "icon": "atlas"
   },
   "options": {},
   "attributes": {
@@ -11,9 +11,6 @@
     },
     "subtitle": {
       "type": "string"
-    },
-    "text": {
-      "type": "text"
     }
   }
 }

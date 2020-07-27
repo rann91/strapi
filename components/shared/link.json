@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_content_links",
+  "collectionName": "components_shared_links",
   "info": {
     "name": "link",
     "icon": "link"
@@ -18,13 +18,6 @@
       "type": "boolean",
       "default": false,
       "required": true
-    },
-    "type": {
-      "type": "string",
-      "private": false,
-      "required": true,
-      "unique": false,
-      "default": "Link"
     }
   }
 }

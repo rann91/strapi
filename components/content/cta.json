@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_content_heroes",
+  "collectionName": "components_content_ctas",
   "info": {
-    "name": "Hero",
-    "icon": "h-square"
+    "name": "Call to action",
+    "icon": "mouse"
   },
   "options": {},
   "attributes": {
@@ -11,15 +11,6 @@
     },
     "description": {
       "type": "text"
-    },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
     },
     "link": {
       "type": "component",

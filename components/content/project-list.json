@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_content_texts",
+  "collectionName": "components_content_project_lists",
   "info": {
-    "name": "Text",
-    "icon": "stream"
+    "name": "Project overview",
+    "icon": "bars"
   },
   "options": {},
   "attributes": {
@@ -11,9 +11,6 @@
     },
     "subtitle": {
       "type": "string"
-    },
-    "text": {
-      "type": "text"
     }
   }
 }

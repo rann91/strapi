@@ -18,13 +18,28 @@
       "type": "dynamiczone",
       "components": [
         "content.hero",
-        "content.text"
+        "content.text",
+        "content.highlight",
+        "content.servicelist",
+        "content.person-list",
+        "content.contact-form",
+        "content.latest-article-list",
+        "content.project-list",
+        "content.maps",
+        "content.person-contact-list",
+        "content.cta",
+        "content.article-overview"
       ]
     },
     "slug": {
       "type": "uid",
       "targetField": "title",
       "required": false
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "structure.meta"
     }
   }
 }
