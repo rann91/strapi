@@ -20,7 +20,7 @@
         "content.hero",
         "content.text",
         "content.highlight",
-        "content.servicelist",
+        "content.service-list",
         "content.person-list",
         "content.contact-form",
         "content.latest-article-list",
@@ -28,7 +28,7 @@
         "content.maps",
         "content.person-contact-list",
         "content.cta",
-        "content.article-overview"
+        "content.article-list"
       ]
     },
     "slug": {
