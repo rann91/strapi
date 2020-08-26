@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_content_maps",
+  "info": {
+    "name": "Maps",
+    "icon": "map"
+  },
+  "options": {},
+  "attributes": {
+    "embedUrl": {
+      "type": "string"
+    }
+  }
+}

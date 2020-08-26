@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_content_services",
+  "info": {
+    "name": "service",
+    "icon": "caret-square-right"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

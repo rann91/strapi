@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_content_service_lists",
+  "info": {
+    "name": "Service overview",
+    "icon": "kaaba"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  app:
+    container_name: ${COMPOSE_PROJECT_NAME}_app
+    build: .
+    restart: always
+    environment:
+      - VIRTUAL_HOST
+      - VIRTUAL_PORT=1337
+      - LETSENCRYPT_HOST
+      - LETSENCRYPT_EMAIL
+    networks:
+      - frontend
+
+networks:
+  frontend:
+    external:
+      name: nginx-proxy

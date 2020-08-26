@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_content_highlights",
+  "info": {
+    "name": "Highlight",
+    "icon": "digital-tachograph"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false
+    },
+    "text": {
+      "type": "text"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "reverse": {
+      "type": "boolean"
+    }
+  }
+}

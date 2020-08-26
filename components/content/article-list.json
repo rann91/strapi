@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_article_lists",
+  "info": {
+    "name": "Article overview",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

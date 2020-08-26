@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_project_lists",
+  "info": {
+    "name": "Project overview",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

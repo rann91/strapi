@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_person_lists",
+  "info": {
+    "name": "Person overview",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "persons": {
+      "collection": "person"
+    }
+  }
+}

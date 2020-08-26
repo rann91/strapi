@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_content_ctas",
+  "info": {
+    "name": "Call to action",
+    "icon": "mouse"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

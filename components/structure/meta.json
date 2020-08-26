@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_structure_metas",
+  "info": {
+    "name": "Meta",
+    "icon": "list-alt"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "metaImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
