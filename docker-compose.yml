@@ -9,7 +9,7 @@ services:
       - ./public:/home/node/app/public:delegated
     environment:
       - VIRTUAL_HOST
-      - VIRTUAL_PORT=1337
+      - VIRTUAL_PORT=3000
       - LETSENCRYPT_HOST
       - LETSENCRYPT_EMAIL
     networks:
