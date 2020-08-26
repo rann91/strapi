@@ -7,5 +7,15 @@ services:
     restart: always
     volumes:
       - ./public:/home/node/app/public:delegated
-    ports:
-      - 1337:1337
+    environment:
+      - VIRTUAL_HOST
+      - VIRTUAL_PORT=1337
+      - LETSENCRYPT_HOST
+      - LETSENCRYPT_EMAIL
+    networks:
+      - frontend
+
+networks:
+  frontend:
+    external:
+      name: nginx-proxy
