@@ -1,3 +1,3 @@
-# Strapi application
+# Strapi
 
-A quick description of your strapi application
+Strapi example project.
