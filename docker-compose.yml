@@ -5,6 +5,8 @@ services:
     container_name: ${COMPOSE_PROJECT_NAME}_app
     build: .
     restart: always
+    volumes:
+      - ./public:/home/node/app/public:delegated
     environment:
       - VIRTUAL_HOST
       - VIRTUAL_PORT=1337
