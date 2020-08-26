@@ -7,5 +7,5 @@ RUN npm ci
 COPY --chown=node:node . .
 ENV NODE_ENV="production"
 RUN npm run build
-EXPOSE 1337
+EXPOSE 3000
 CMD ["npm", "run", "start"]
